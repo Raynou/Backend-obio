@@ -1,2 +1,0 @@
-from conf.production import *
-
