@@ -11,7 +11,7 @@ SECURE_REDIRECT_EXEMPT = []
 SECURE_SSL_REDIRECT = True
 SECURE_PROXY_SSL_HEADER = ('HTTP_XFORWARDED_PROTO', 'https')
 
-ALLOWED_HOSTS = ['ec2-52-5-247-46.compute-1.amazonaws.com', '127.0.0.1']
+ALLOWED_HOSTS = ['https://back-obio.herokuapp.com/', '127.0.0.1']
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
