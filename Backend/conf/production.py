@@ -1,4 +1,4 @@
-from Backend,conf.common import *
+from Backend.conf.common import *
 
 DEBUG = False
 

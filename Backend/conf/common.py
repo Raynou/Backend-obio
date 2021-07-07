@@ -35,7 +35,7 @@ MIDDLEWARE_INIT = [
 INSTALLED_APPS = INSTALLED_APPS_INIT + products.INSTALLED_APPS + users.INSTALLED_APPS
 MIDDLEWARE = MIDDLEWARE_INIT + products.MIDDLEWARE + users.MIDDLEWARE
 
-ROOT_URLCONF = 'urls'
+ROOT_URLCONF = 'Backend.urls'
 
 TEMPLATES = [
     {
@@ -53,7 +53,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'wsgi.application'
+WSGI_APPLICATION = 'Backend.wsgi.application'
 
 
 
