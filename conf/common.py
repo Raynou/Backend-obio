@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 from decouple import config
-from Backend.conf.config import products, users
+from conf.config import products, users
 #import django_heroku
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -35,7 +35,7 @@ MIDDLEWARE_INIT = [
 INSTALLED_APPS = INSTALLED_APPS_INIT + products.INSTALLED_APPS + users.INSTALLED_APPS
 MIDDLEWARE = MIDDLEWARE_INIT + products.MIDDLEWARE + users.MIDDLEWARE
 
-ROOT_URLCONF = 'Backend.urls'
+ROOT_URLCONF = 'urls'
 
 TEMPLATES = [
     {
@@ -53,7 +53,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Backend.wsgi.application'
+WSGI_APPLICATION = 'wsgi.application'
 
 
 
