@@ -29,6 +29,7 @@ MIDDLEWARE_INIT = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 INSTALLED_APPS = INSTALLED_APPS_INIT + products.INSTALLED_APPS + users.INSTALLED_APPS
@@ -82,9 +83,11 @@ USE_L10N = True
 
 USE_TZ = True
 
-#STATIC_URL = '/static/'
+# STATIC_URL = '/static/'
+# STATIC_ROOT = BASE_DIR/'static'
 MEDIA_URL = '/media/'
-#STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media_root')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
