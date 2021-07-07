@@ -1,6 +1,6 @@
 from Backend.conf.common import *
 
-DEBUG = False
+DEBUG = True
 
 # SESSION_COOKIE_SECURE = True
 # SECURE_BROWSER_XSS_FILTER = True
