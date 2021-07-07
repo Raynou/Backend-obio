@@ -18,10 +18,10 @@ ALLOWED_HOSTS = ['https://back-obio.herokuapp.com/', '127.0.0.1', '187.161.188.1
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dbintsu085rgpc',
-        'USER': 'qksinaltzvgtzu',
-        'PASSWORD': '786c308f5af2128a295980b555904d48c67312a0179616e64225f9d951bcb458',
-        'HOST': 'ec2-52-5-247-46.compute-1.amazonaws.com',
+        'NAME': 'dabt9nr97sb8g7',
+        'USER': 'upojxeufbjpedx',
+        'PASSWORD': 'b58a0ba354680db668d30a85a76fa11061f487785b10de584788f9db5f1b4f49',
+        'HOST': 'ec2-35-169-188-58.compute-1.amazonaws.com',
         'PORT': 5432,
     }
 }
