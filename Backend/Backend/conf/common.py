@@ -7,7 +7,7 @@ from Backend.conf.config import products, users
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = config('SECRET_KEY')
-os.environ['HTTPS'] = "on"
+# os.environ['HTTPS'] = "on"
 INSTALLED_APPS_INIT = [
     'django.contrib.admin',
     'django.contrib.auth',
